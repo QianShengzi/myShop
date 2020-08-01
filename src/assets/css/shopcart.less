@@ -1,0 +1,89 @@
+.my-shop-cart {
+    margin-bottom: 116.06px;
+
+    .bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 11;
+    }
+
+    .eachShops {
+        margin-top: 46.01px;
+    }
+
+    /deep/ .van-nav-bar__text {
+        color: #ff1527;
+    }
+
+    .van-checkbox__icon--checked .van-icon {
+        border-color: #ff1527;
+        background-color: #ff1527;
+    }
+
+    .van-submit-bar {
+        bottom: 50.03px;
+    }
+
+    .shop {
+        position: relative;
+        padding: 10px;
+        border-top: 1px solid #f1f1f1;
+        background-color: #fff;
+
+        .img-box {
+            position: relative;
+        }
+
+        .img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100px;
+            height: 100px;
+            // background-color: red;
+        }
+
+        .content {
+            font-size: 14px;
+            margin-left: 112px;
+            width: 206px;
+        }
+
+        .stepper {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+
+        .title {
+            margin-bottom: 6px;
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .shopname {
+            font-size: 12px;
+            margin-bottom: 32px;
+        }
+
+        .price {
+            font-size: 16px;
+            color: #ff1527;
+        }
+    }
+
+    .del {
+        height: 100%;
+    }
+
+    .delShop {
+        /deep/ .van-checkbox {
+            position: absolute;
+            left: 16px;
+        }
+    }
+}

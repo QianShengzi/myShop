@@ -1,0 +1,58 @@
+.collect {
+    padding-top: 48px;
+    padding-bottom: 20px;
+
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .van-nav-bar__left .van-icon-arrow-left,
+    .van-nav-bar__left .van-nav-bar__text {
+        color: #ff1527;
+    }
+
+    .eachCollected {
+        position: relative;
+        width: 182px;
+        // height: 300px;
+        margin-right: 11px;
+        margin-top: 12px;
+        font-size: 16px;
+        background-color: #fff;
+        box-sizing: border-box;
+        padding: 10px;
+
+        &:nth-child(2n) {
+            margin-right: 0;
+        }
+
+        .img-box {
+            width: 162px;
+            height: 162px;
+        }
+
+        .name {
+            margin: 12px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .price {
+            font-size: 14px;
+            color: #ff1527;
+        }
+
+        .van-icon-delete {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 24px;
+            color: #ccc;
+        }
+    }
+
+}
